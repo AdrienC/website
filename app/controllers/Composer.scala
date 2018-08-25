@@ -1410,6 +1410,7 @@ object Composer extends Controller {
     case "green" => new BaseColor(0.5f, 0.7f, 0.5f)
     case "cyan" => new BaseColor(0.6f, 0.75f, 0.75f)
     case "blue" => new BaseColor(0.55f, 0.63f, 0.80f)
+    case "blue_sf" => new BaseColor(0.13f, 0.34f, 0.50f)
     case "purple" => new BaseColor(0.80f, 0.6f, 0.70f)
     case "pink" => new BaseColor(1.0f, 0.60f, 0.65f)
     case _ => new BaseColor(0.3f, 0.3f, 0.3f)
